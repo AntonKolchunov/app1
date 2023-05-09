@@ -1,5 +1,8 @@
-package ru.anton.ch3_abstraction.without_spring.model;
+package ru.anton.ch3_abstraction.with_spring.model;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Comment {
     private String author;
     private String text;
